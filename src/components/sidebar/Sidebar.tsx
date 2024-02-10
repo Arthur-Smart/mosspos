@@ -12,42 +12,42 @@ const Sidebar = () => {
   const links = [
     {
       id: 1,
-      image: LOGO,
+      image: "./assets/home.svg",
       title: "Home",
     },
     {
       id: 2,
-      image: LOGO,
+      image: "./assets/troll.svg",
       title: "Products",
     },
     {
       id: 3,
-      image: LOGO,
+      image: "./assets/customers.svg",
       title: "Customers",
     },
     {
       id: 4,
-      image: LOGO,
+      image: "./assets/orders.svg",
       title: "Orders",
     },
     {
       id: 5,
-      image: LOGO,
+      image: "./assets/sales.svg",
       title: "Sales",
     },
     {
       id: 6,
-      image: LOGO,
+      image: "./assets/expense.svg",
       title: "Expenses",
     },
     {
       id: 7,
-      image: LOGO,
+      image: "./assets/report.svg",
       title: "Reports",
     },
     {
       id: 8,
-      image: LOGO,
+      image: "./assets/stuffs.svg",
       title: "Stuffs",
     },
   ];
@@ -64,13 +64,13 @@ const Sidebar = () => {
         {links.map((link) => (
           <div
             key={link.id}
-            className="flex items-center mb-7 cursor-pointer"
+            className="flex items-center mb-9 cursor-pointer"
           >
             <Image
               src={link.image}
               alt=""
-              width={25}
-              height={25}
+              width={20}
+              height={20}
             />
             <p className="text-white ml-2">{link.title}</p>
           </div>

@@ -8,3 +8,21 @@
     border-radius: 50%;
     object-fit: cover;
 }
+
+.notification__icon{
+    position: relative;
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    border:1px solid gray;
+}
+
+.count{
+    position: absolute;
+    width:20px;
+    height:20px;
+    background-color: #FFEAC1;
+    border-radius: 50%;
+    top:-5px;
+    right:-5px;
+}
