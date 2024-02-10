@@ -10,7 +10,7 @@ const page = () => {
     <main className="w-full p-3 mt-4">
       <section className="flex items-center justify-between">
         <Link href="#">
-          <p className="font-semibold">Add a new customer</p>
+          <h2 className="font-semibold">Add a new customer</h2>
         </Link>
         <div className="flex items-center">
           <div className="flex">
@@ -28,7 +28,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section className="w-full mt-4 ">
+      <section className="w-full mt-5">
         <table className="w-[100%]">
           <CustomersTable />
         </table>
