@@ -41,7 +41,9 @@ const Table = () => {
         <td className="py-2 px-3 font-medium text-[15px]">522$</td>
         <td className="py-2 px-3 font-medium text-[15px]">30/09/2020</td>
         <td className="py-2 px-3 font-medium text-[15px]">Kelly Garrett</td>
-        <td className="py-2 px-3 font-medium text-[15px]">...</td>
+        <td className="py-2 px-3 font-medium text-[15px] ">
+          <p className="cursor-pointer">...</p>
+        </td>
       </tr>
       <tr className="w-full text-center">
         <td className="py-2 px-3 font-medium text-[15px]">2833</td>

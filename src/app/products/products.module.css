@@ -1,0 +1,7 @@
+.search__input{
+    border-bottom: 1px solid gray;
+}
+
+.search__input::placeholder{
+    font-size: 14px;
+}
