@@ -95,7 +95,7 @@ export default function Home() {
                 <p className="text-black text-[15px] font-semibold">
                   Bank - Transfers
                 </p>
-                <h1 className="text-black font-black text-xl">Kes 55, 000</h1>
+                <h1 className="text-black font-black text-xl">Kes 65, 000</h1>
               </div>
               <Image
                 src="./assets/dropdown.svg"
