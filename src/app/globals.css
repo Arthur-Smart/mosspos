@@ -13,3 +13,7 @@
 .search__invoice__input::placeholder{
     font-size: 14px;
 }
+
+tr:nth-child(even) {
+    background-color: #EFF9F9;
+}
