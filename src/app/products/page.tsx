@@ -25,7 +25,7 @@ const page = () => {
               className="ml-2"
             />
           </div>
-          <select className="ml-3 rounded-md py-2 px-3 bg-[#FFEAC1] outline-0">
+          <select className="ml-3 rounded-md py-2 px-3 bg-[#FFEAC1] outline-0 text-semibold">
             <option>Select category</option>
             <option value="interio">Interior</option>
             <option value="exterior">Exterior</option>

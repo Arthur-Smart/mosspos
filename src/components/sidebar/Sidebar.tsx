@@ -46,6 +46,11 @@ const Sidebar = () => {
       image: "./assets/stuffs.svg",
       title: "Stuffs",
     },
+    // {
+    //   id: 9,
+    //   image: "./assets/stuffs.svg",
+    //   title: "Settings",
+    // },
   ];
   return (
     <div className="w-[20%] bg-[#122043] h-[100vh] flex flex-col items-center justify-between p-3">

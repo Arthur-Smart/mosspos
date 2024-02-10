@@ -21,6 +21,9 @@ const Product = () => {
       <div className={styles.more__btn}>
         <button className="">...</button>
       </div>
+      {/* <div className={styles.links__cont}>
+        <p>Hello</p>
+      </div> */}
     </div>
   );
 };
