@@ -5,3 +5,11 @@
 .card{
     width: calc(100% / 4);
 }
+
+.search__invoice__input{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.534);
+}
+
+.search__invoice__input::placeholder{
+    font-size: 14px;
+}

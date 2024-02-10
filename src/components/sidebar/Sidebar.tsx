@@ -2,14 +2,10 @@ import React from "react";
 import LOGO from "../../../public/assets/logo.png";
 import styles from "./sidebar.module.css";
 import Image from "next/image";
+import { ILink } from "@/interfaces/links";
 
 const Sidebar = () => {
-  interface ILink {
-    id: number;
-    image: HTMLImageElement;
-    title: string;
-  }
-  const links = [
+  const links: ILink[] = [
     {
       id: 1,
       image: "./assets/home.svg",
