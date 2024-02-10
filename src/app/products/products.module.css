@@ -5,3 +5,9 @@
 .search__input::placeholder{
     font-size: 14px;
 }
+
+.products__wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 7px;
+}

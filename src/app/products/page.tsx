@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./products.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import Product from "@/components/product/Product";
 
 const page = () => {
   return (
@@ -31,7 +32,16 @@ const page = () => {
           </select>
         </div>
       </section>
-      <section className={`${styles.products__wrapper} w-full`}></section>
+      <section className={`${styles.products__wrapper} w-full gap-2 mt-5`}>
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+      </section>
     </main>
   );
 };

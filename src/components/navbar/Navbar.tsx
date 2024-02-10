@@ -17,7 +17,7 @@ const Navbar = () => {
           className={styles.admin__image}
         />
         <div className="ml-2">
-          <h2 className="font-bold text-lg">Mosses Kiarie</h2>
+          <h2 className="font-bold text-lg">Moses Kiarie</h2>
           <p className="-mt-2">Sales officer</p>
         </div>
         <Image
