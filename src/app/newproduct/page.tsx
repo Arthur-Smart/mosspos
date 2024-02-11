@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./newcustomer.module.css";
+import styles from "./newproduct.module.css";
 import Image from "next/image";
 
 const page = () => {
@@ -11,7 +11,7 @@ const page = () => {
         </h2>
       </section>
       <section className="w-full flex mt-4">
-        <div className="w-[25%]">
+        <div className="w-[23%]">
           <h2 className="font-semibold text-[16px]">Products Image</h2>
           <div
             className={`${styles.profile__img__cont} shadow-lg rounded-md mt-2 flex items-center justify-center`}
@@ -37,8 +37,9 @@ const page = () => {
             Allowed files; jpg, jpeg, png
           </p>
         </div>
-        <div className="w-[75%]">
+        <div className="w-[77%]">
           <div className="w-full">
+            {/* Create Product Input field */}
             <div className="flex w-full items-center justify-between">
               <div className={`${styles.input} flex flex-col`}>
                 <label className="font-semibold">Product Name*</label>
@@ -90,25 +91,58 @@ const page = () => {
                 </select>
               </div>
             </div>
-            <div className="flex w-full items-center justify-between mt-7">
+            <div className="flex w-full  mt-7">
+              <div
+                className={`${styles.textarea__wrapper} flex flex-col w-[67%]`}
+              >
+                <label className="font-semibold">Product Description*</label>
+                <textarea
+                  placeholder="Write description..."
+                  className={`${styles.textarea} border-[1px] border-gray-200 outline-0 py-2 px-3 rounded-md`}
+                ></textarea>
+              </div>
+              <div className="ml-2 w-[33%]">
+                <label className="font-semibold">Product Brochure</label>
+                <input type="file" />
+                <p className="mt-2 text-[14px] text-[#707070]">
+                  Max file size 5MB
+                </p>
+                <p className="mt-2 text-[14px] text-[#707070] -mt-[3px]">
+                  Allowed files; jpg, jpeg, png
+                </p>
+              </div>
+            </div>
+            <div className="flex w-full items-center justify-between mt-3">
               <div className={`${styles.input} flex flex-col`}>
-                <label className="font-semibold">Unit*</label>
+                <label className="font-semibold">Weight*</label>
                 <input
-                  placeholder="Enter number of units"
+                  placeholder="Enter product weight"
                   type="text"
                   className="border-[1px] border-gray-200 outline-0 py-2 px-3 rounded-md"
                 />
               </div>
               <div className={`${styles.input} flex flex-col`}>
-                <label className="font-semibold">Cost*</label>
+                <label className="font-semibold">Discount</label>
                 <input
-                  placeholder="Enter cost"
+                  placeholder="% Discount"
                   type="text"
                   className="border-[1px] border-gray-200 outline-0 py-2 px-3 rounded-md"
                 />
+              </div>
+              <div className={`${styles.input} flex`}>
+                <input
+                  placeholder="Enter product name"
+                  type="checkbox"
+                  className="border-[1px] border-gray-200 outline-0 py-2 px-3 rounded-md ml-2"
+                />
+                <p className="font-semibold ml-2">In stock</p>
               </div>
             </div>
           </div>
+          {/* End of Create Product Input field */}
+          <button className="bg-[#0E1935] px-5 py-2 flex mt-3 rounded-md text-white">
+            Create
+          </button>
         </div>
       </section>
     </main>

@@ -53,7 +53,9 @@ const Sidebar = () => {
     // },
   ];
   return (
-    <div className="w-[20%] bg-[#122043] h-[100vh] flex flex-col items-center justify-between p-3">
+    <div
+      className={`${styles.sidebar} w-[20%] bg-[#122043] h-[100vh] flex flex-col items-center justify-between p-3`}
+    >
       <Image
         src={LOGO}
         alt="Moss Paints"
