@@ -7,7 +7,7 @@ const page = () => {
     <main className="w-full p-3 mt-4">
       <section>
         <h2 className="font-semibold">
-          Customers <span className="text-[#6E7373]">/ Add customer</span>
+          Products <span className="text-[#6E7373]">/ Add product</span>
         </h2>
       </section>
       <section className="w-full flex mt-4">
@@ -37,7 +37,7 @@ const page = () => {
             Allowed files; jpg, jpeg, png
           </p>
         </div>
-        <div className="w-[77%]">
+        <div className="w-[77%] flex flex-col">
           <div className="w-full">
             {/* Create Product Input field */}
             <div className="flex w-full items-center justify-between">
@@ -140,7 +140,7 @@ const page = () => {
             </div>
           </div>
           {/* End of Create Product Input field */}
-          <button className="bg-[#0E1935] px-5 py-2 flex mt-3 rounded-md text-white">
+          <button className="bg-[#0E1935] px-5 py-2 self-end mt-3 rounded-md text-white">
             Create
           </button>
         </div>

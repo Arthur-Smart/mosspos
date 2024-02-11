@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+/* *{
+    overflow-x: hidden;
+} */
+
+body{
     overflow-x: hidden;
 }
 

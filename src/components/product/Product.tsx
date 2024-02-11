@@ -16,7 +16,7 @@ const Product = () => {
       />
       <div className="w-full">
         <h3 className="font-semibold text-[18px]">Extra shield</h3>
-        <p className="font-medium">Kes 4,500</p>
+        <p className="font-medium -mt-[3px] text-gray-600">Kes 4,500</p>
       </div>
       <div className={styles.more__btn}>
         <button className="">...</button>
