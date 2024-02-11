@@ -28,18 +28,28 @@ const Navbar = () => {
           className="ml-2 cursor-pointer"
         />
       </div>
-      <div
-        className={`${styles.notification__icon} flex items-center justify-center`}
-      >
-        <Image
-          src="./assets/bell.svg"
-          alt=""
-          width={20}
-          height={20}
-          className=""
-        />
-        <div className={`${styles.count} flex items-center justify-center`}>
-          <p className="font-semibold text-[14px]">2</p>
+      <div className="flex items-center">
+        <button>
+          <Image
+            src="./assets/moon.svg"
+            alt=""
+            width={30}
+            height={30}
+          />
+        </button>
+        <div
+          className={`${styles.notification__icon} flex items-center justify-center ml-3`}
+        >
+          <Image
+            src="./assets/bell.svg"
+            alt=""
+            width={20}
+            height={20}
+            className=""
+          />
+          <div className={`${styles.count} flex items-center justify-center `}>
+            <p className="font-semibold text-[14px]">2</p>
+          </div>
         </div>
       </div>
     </div>

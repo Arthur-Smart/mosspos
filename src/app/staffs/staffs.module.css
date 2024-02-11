@@ -1,0 +1,13 @@
+.search__input {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.534);
+}
+
+.search__input::placeholder {
+    font-size: 15px;
+}
+
+.staffs__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 7px;
+}
