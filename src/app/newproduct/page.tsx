@@ -1,15 +1,15 @@
 import React from "react";
 import styles from "./newproduct.module.css";
 import Image from "next/image";
+import Header from "@/components/Header";
 
 const page = () => {
   return (
     <main className="w-full p-3 mt-4">
-      <section>
-        <h2 className="font-semibold">
-          Products <span className="text-[#6E7373]">/ Add product</span>
-        </h2>
-      </section>
+      <Header
+        title="Products"
+        subtitle="Add product"
+      />
       <section className="w-full flex mt-4">
         <div className="w-[23%]">
           <h2 className="font-semibold text-[16px]">Products Image</h2>
