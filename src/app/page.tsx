@@ -9,7 +9,7 @@ export default function Home() {
         <div className="shadow-lg card p-3 rounded-md flex items-center justify-between">
           <div>
             <p className="font-semibold text-[17px]">Total Orders</p>
-            <h1 className="font-bold text-[25px] text-[#283593]">2367</h1>
+            <h1 className="font-bold text-[22px] text-[#283593]">2367</h1>
           </div>
           <Image
             src="./assets/cart.svg"
@@ -21,7 +21,7 @@ export default function Home() {
         <div className="shadow-lg card p-3 rounded-md flex items-center justify-between">
           <div>
             <p className="font-semibold text-[17px]">Total Sales</p>
-            <h1 className="font-bold text-[25px] text-[#4CAF50]">55,000</h1>
+            <h1 className="font-bold text-[22px] text-[#4CAF50]">55,000</h1>
           </div>
           <Image
             src="./assets/arrowup.svg"
@@ -33,7 +33,7 @@ export default function Home() {
         <div className="shadow-lg card p-3 rounded-md flex items-center justify-between">
           <div>
             <p className="font-semibold text-[17px]">Expenses</p>
-            <h1 className="font-bold text-[25px] text-[#FF9800]">12,500</h1>
+            <h1 className="font-bold text-[22px] text-[#FF9800]">12,500</h1>
           </div>
           <Image
             src="./assets/arrowdown.svg"
@@ -45,7 +45,7 @@ export default function Home() {
         <div className="shadow-lg card p-3 rounded-md flex items-center justify-between">
           <div>
             <p className="font-semibold text-[17px]">Current Inventory</p>
-            <h1 className="font-bold text-[25px] text-[#BFD3DB]">12,000</h1>
+            <h1 className="font-bold text-[22px] text-[#BFD3DB]">12,000</h1>
           </div>
           <Image
             src="./assets/invent.svg"
