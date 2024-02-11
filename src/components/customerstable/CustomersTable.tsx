@@ -4,7 +4,7 @@ import styles from "./customerstable.module.css";
 const CustomersTable = () => {
   return (
     <>
-      <thead className="bg-[#E4E4E4] ">
+      <thead className="bg-[#E4E4E4]">
         <tr>
           <th className="font-semibold text-[15px] text-left p-[3px]">
             Customer Id

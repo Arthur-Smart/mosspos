@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./orders.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import OrdersTable from "@/components/orderstable/OrdersTable";
 
 const page = () => {
   return (
@@ -24,8 +25,19 @@ const page = () => {
               className="ml-2"
             />
           </div>
+          <button className="ml-4">
+            <Image
+              src="./assets/filter.svg"
+              alt=""
+              width={27}
+              height={27}
+            />
+          </button>
         </div>
       </section>
+      <table className="w-full mt-5 overflow-hidden rounded-md">
+        <OrdersTable />
+      </table>
     </main>
   );
 };
