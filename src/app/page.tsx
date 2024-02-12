@@ -76,8 +76,9 @@ export default function Home() {
               />
             </div>
           </div>
-
-          <Table />
+          <table className="w-full">
+            <Table />
+          </table>
         </div>
         <div className="payment w-[30%] shadow-lg flex justify-between flex-col p-2">
           <div>

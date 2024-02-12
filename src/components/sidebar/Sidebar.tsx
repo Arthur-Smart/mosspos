@@ -46,11 +46,11 @@ const Sidebar = () => {
       image: "./assets/stuffs.svg",
       title: "Stuffs",
     },
-    // {
-    //   id: 9,
-    //   image: "./assets/stuffs.svg",
-    //   title: "Settings",
-    // },
+    {
+      id: 9,
+      image: "./assets/stuffs.svg",
+      title: "Settings",
+    },
   ];
   return (
     <div
@@ -67,14 +67,17 @@ const Sidebar = () => {
         {links.map((link) => (
           <div
             key={link.id}
-            className="flex items-center mb-9 cursor-pointer"
+            className="flex items-center mb-7 cursor-pointer"
           >
-            <Image
-              src={link.image}
-              alt=""
-              width={20}
-              height={20}
-            />
+            <div className={link.id == 2 ? "bg-[#FF9800] p-2 rounded-md" : ""}>
+              <Image
+                src={link.image}
+                alt=""
+                width={20}
+                height={20}
+              />
+            </div>
+
             <p className="text-white ml-2">{link.title}</p>
           </div>
         ))}
