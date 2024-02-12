@@ -1,3 +1,42 @@
 .search__input {
     border-bottom: 1px solid rgba(128, 128, 128, 0.534);
 }
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* *{
+    overflow-x: hidden;
+} */
+
+/* body {
+    overflow-x: hidden;
+}
+
+.card {
+    width: calc(100% / 4);
+}
+
+.search__invoice__input {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.534);
+}
+
+.search__invoice__input::placeholder {
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #EFF9F9;
+}
+
+.action__btn {
+    position: relative;
+}
+
+.action__dropdown {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    background-color: red;
+} */
