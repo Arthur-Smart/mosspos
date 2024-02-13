@@ -1,53 +1,69 @@
+"use client";
+
 import React from "react";
 import LOGO from "../../../public/assets/logo.png";
 import styles from "./sidebar.module.css";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { ILink } from "@/interfaces/links";
+import Link from "next/link";
 
 const Sidebar = () => {
+  const pathname = usePathname();
+  console.log(pathname);
+
   const links: ILink[] = [
     {
       id: 1,
+      path: "/",
       image: "./assets/home.svg",
       title: "Home",
     },
     {
       id: 2,
+      path: "/products",
       image: "./assets/troll.svg",
       title: "Products",
     },
     {
       id: 3,
+      path: "/customers",
       image: "./assets/customers.svg",
       title: "Customers",
     },
     {
       id: 4,
+      path: "/orders",
       image: "./assets/orders.svg",
       title: "Orders",
     },
     {
       id: 5,
+      path: "/sales",
       image: "./assets/sales.svg",
       title: "Sales",
     },
     {
       id: 6,
+      path: "/expenses",
       image: "./assets/expense.svg",
       title: "Expenses",
     },
     {
       id: 7,
+      path: "/reports",
       image: "./assets/report.svg",
       title: "Reports",
     },
     {
       id: 8,
+      path: "/staffs",
       image: "./assets/stuffs.svg",
-      title: "Stuffs",
+      title: "Staffs",
     },
     {
       id: 9,
+      path: "/settings",
       image: "./assets/stuffs.svg",
       title: "Settings",
     },
@@ -65,21 +81,27 @@ const Sidebar = () => {
       />
       <div className={`${styles.links_wrapper} mt-6`}>
         {links.map((link) => (
-          <div
-            key={link.id}
-            className="flex items-center mb-7 cursor-pointer"
-          >
-            <div className={link.id == 2 ? "bg-[#FF9800] p-2 rounded-md" : ""}>
-              <Image
-                src={link.image}
-                alt=""
-                width={20}
-                height={20}
-              />
-            </div>
+          <Link href={link.path}>
+            <div
+              key={link.id}
+              className="flex items-center mb-7 cursor-pointer"
+            >
+              <div
+                className={
+                  link.path == pathname ? "bg-[#FF9800] p-2 rounded-md" : ""
+                }
+              >
+                <Image
+                  src={link.image}
+                  alt=""
+                  width={20}
+                  height={20}
+                />
+              </div>
 
-            <p className="text-white ml-2">{link.title}</p>
-          </div>
+              <p className="text-white ml-2">{link.title}</p>
+            </div>
+          </Link>
         ))}
       </div>
       <button className="bg-[#787E8E] text-white font-semibold py-2 px-7 w-[90%] rounded-md">

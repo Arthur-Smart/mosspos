@@ -9,9 +9,15 @@ const page = () => {
   return (
     <main className="w-full p-3 mt-4">
       <section className="flex items-center justify-between">
-        <Link href="#">
-          <h2 className="font-semibold">Add a new customer</h2>
-        </Link>
+        <div className="flex items-center">
+          <Link href="#">
+            <h2 className="font-semibold">Add a new customer</h2>
+          </Link>
+          <p className="py-[1px] px-2 ml-2 bg-sky-600 rounded-md text-white">
+            25 customer present
+          </p>
+        </div>
+
         <div className="flex items-center">
           <div className="flex">
             <input

@@ -3,6 +3,13 @@ import styles from "./products.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import Product from "@/components/product/Product";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 
 const page = () => {
   return (
@@ -25,11 +32,21 @@ const page = () => {
               className="ml-2"
             />
           </div>
-          <select className="ml-3 rounded-md py-2 px-3 bg-[#FFEAC1] outline-0 text-semibold">
+          {/* <select className="ml-3 rounded-md py-2 px-3 bg-[#FFEAC1] outline-0 text-semibold">
             <option>Select category</option>
             <option value="interio">Interior</option>
             <option value="exterior">Exterior</option>
-          </select>
+          </select> */}
+          <Select>
+            <SelectTrigger className="w-[180px] ml-3 rounded-md py-2 px-3 outline-0 text-semibold">
+              <SelectValue placeholder="Select category" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="intrior">Interior</SelectItem>
+              <SelectItem value="exterior">Exterior</SelectItem>
+              <SelectItem value="wall">Wall preparation</SelectItem>
+            </SelectContent>
+          </Select>
         </div>
       </section>
       <section className={`${styles.products__wrapper} w-full gap-2 mt-5`}>

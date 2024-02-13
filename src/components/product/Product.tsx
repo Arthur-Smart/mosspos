@@ -1,6 +1,12 @@
 import React from "react";
 import styles from "./product.module.css";
 import Image from "next/image";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+import Link from "next/link";
 
 const Product = () => {
   return (
@@ -19,7 +25,26 @@ const Product = () => {
         <p className="font-medium -mt-[3px] text-gray-600">Kes 4,500</p>
       </div>
       <div className={styles.more__btn}>
-        <button className="">...</button>
+        <Popover>
+          <PopoverTrigger>
+            <p>...</p>
+          </PopoverTrigger>
+          <PopoverContent className="flex flex-col items-center w-[100px] bg-[#DCDCDC] ">
+            <Link
+              href="/product/1234"
+              className="mb-[1px] text-[14px] font-medium"
+            >
+              More
+            </Link>
+            <Link
+              href="#"
+              className="mb-[1px] text-[14px] font-medium"
+            >
+              Edit
+            </Link>
+            <button className="text-[14px] text-red-500">Delete</button>
+          </PopoverContent>
+        </Popover>
       </div>
       {/* <div className={styles.links__cont}>
         <p>Hello</p>

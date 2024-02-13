@@ -29,210 +29,132 @@ const CustomersTable = () => {
       </thead>
       <tbody>
         <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
+          <td className="text-left p-[3px]">2858</td>
+          <td className="text-left p-[3px]">Richard Valdez</td>
+          <td className="text-left p-[3px]">(314)279-0801</td>
+          <td className="text-left p-[3px]">York</td>
+          <td className="text-left p-[3px]">patricia@mail.com</td>
+          <td className="text-left p-[3px]">6785</td>
+          <td className="text-left p-[3px]">4642</td>
+          <td className="text-left p-[3px]">2471</td>
+          <td className="text-left p-[3px]">
             <p>...</p>
           </td>
         </tr>
         <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
+          <td className="text-left p-[3px]">2858</td>
+          <td className="text-left p-[3px]">Richard Valdez</td>
+          <td className="text-left p-[3px]">(314)279-0801</td>
+          <td className="text-left p-[3px]">York</td>
+          <td className="text-left p-[3px]">patricia@mail.com</td>
+          <td className="text-left p-[3px]">6785</td>
+          <td className="text-left p-[3px]">4642</td>
+          <td className="text-left p-[3px]">2471</td>
+          <td className="text-left p-[3px]">
             <p>...</p>
           </td>
         </tr>
         <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
+          <td className="text-left p-[3px]">2858</td>
+          <td className="text-left p-[3px]">Richard Valdez</td>
+          <td className="text-left p-[3px]">(314)279-0801</td>
+          <td className="text-left p-[3px]">York</td>
+          <td className="text-left p-[3px]">patricia@mail.com</td>
+          <td className="text-left p-[3px]">6785</td>
+          <td className="text-left p-[3px]">4642</td>
+          <td className="text-left p-[3px]">2471</td>
+          <td className="text-left p-[3px]">
             <p>...</p>
           </td>
         </tr>
         <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
+          <td className="text-left p-[3px]">2858</td>
+          <td className="text-left p-[3px]">Richard Valdez</td>
+          <td className="text-left p-[3px]">(314)279-0801</td>
+          <td className="text-left p-[3px]">York</td>
+          <td className="text-left p-[3px]">patricia@mail.com</td>
+          <td className="text-left p-[3px]">6785</td>
+          <td className="text-left p-[3px]">4642</td>
+          <td className="text-left p-[3px]">2471</td>
+          <td className="text-left p-[3px]">
             <p>...</p>
           </td>
         </tr>
         <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
+          <td className="text-left p-[3px]">2858</td>
+          <td className="text-left p-[3px]">Richard Valdez</td>
+          <td className="text-left p-[3px]">(314)279-0801</td>
+          <td className="text-left p-[3px]">York</td>
+          <td className="text-left p-[3px]">patricia@mail.com</td>
+          <td className="text-left p-[3px]">6785</td>
+          <td className="text-left p-[3px]">4642</td>
+          <td className="text-left p-[3px]">2471</td>
+          <td className="text-left p-[3px]">
             <p>...</p>
           </td>
         </tr>
         <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
+          <td className="text-left p-[3px]">2858</td>
+          <td className="text-left p-[3px]">Richard Valdez</td>
+          <td className="text-left p-[3px]">(314)279-0801</td>
+          <td className="text-left p-[3px]">York</td>
+          <td className="text-left p-[3px]">patricia@mail.com</td>
+          <td className="text-left p-[3px]">6785</td>
+          <td className="text-left p-[3px]">4642</td>
+          <td className="text-left p-[3px]">2471</td>
+          <td className="text-left p-[3px]">
             <p>...</p>
           </td>
         </tr>
         <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
+          <td className="text-left p-[3px]">2858</td>
+          <td className="text-left p-[3px]">Richard Valdez</td>
+          <td className="text-left p-[3px]">(314)279-0801</td>
+          <td className="text-left p-[3px]">York</td>
+          <td className="text-left p-[3px]">patricia@mail.com</td>
+          <td className="text-left p-[3px]">6785</td>
+          <td className="text-left p-[3px]">4642</td>
+          <td className="text-left p-[3px]">2471</td>
+          <td className="text-left p-[3px]">
             <p>...</p>
           </td>
         </tr>
         <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
+          <td className="text-left p-[3px]">2858</td>
+          <td className="text-left p-[3px]">Richard Valdez</td>
+          <td className="text-left p-[3px]">(314)279-0801</td>
+          <td className="text-left p-[3px]">York</td>
+          <td className="text-left p-[3px]">patricia@mail.com</td>
+          <td className="text-left p-[3px]">6785</td>
+          <td className="text-left p-[3px]">4642</td>
+          <td className="text-left p-[3px]">2471</td>
+          <td className="text-left p-[3px]">
             <p>...</p>
           </td>
         </tr>
         <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
+          <td className="text-left p-[3px]">2858</td>
+          <td className="text-left p-[3px]">Richard Valdez</td>
+          <td className="text-left p-[3px]">(314)279-0801</td>
+          <td className="text-left p-[3px]">York</td>
+          <td className="text-left p-[3px]">patricia@mail.com</td>
+          <td className="text-left p-[3px]">6785</td>
+          <td className="text-left p-[3px]">4642</td>
+          <td className="text-left p-[3px]">2471</td>
+          <td className="text-left p-[3px]">
             <p>...</p>
           </td>
         </tr>
         <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
-            <p>...</p>
-          </td>
-        </tr>
-        <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
-            <p>...</p>
-          </td>
-        </tr>
-        <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
-            <p>...</p>
-          </td>
-        </tr>
-        <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
-            <p>...</p>
-          </td>
-        </tr>
-        <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
-            <p>...</p>
-          </td>
-        </tr>
-        <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
-            <p>...</p>
-          </td>
-        </tr>
-        <tr>
-          <td className="text-left p-[3px]  font-medium">2858</td>
-          <td className="text-left p-[3px]  font-medium">Richard Valdez</td>
-          <td className="text-left p-[3px]  font-medium">(314)279-0801</td>
-          <td className="text-left p-[3px]  font-medium">York</td>
-          <td className="text-left p-[3px]  font-medium">patricia@mail.com</td>
-          <td className="text-left p-[3px]  font-medium">6785</td>
-          <td className="text-left p-[3px]  font-medium">4642</td>
-          <td className="text-left p-[3px]  font-medium">2471</td>
-          <td className="text-left p-[3px]  font-medium">
+          <td className="text-left p-[3px]">2858</td>
+          <td className="text-left p-[3px]">Richard Valdez</td>
+          <td className="text-left p-[3px]">(314)279-0801</td>
+          <td className="text-left p-[3px]">York</td>
+          <td className="text-left p-[3px]">patricia@mail.com</td>
+          <td className="text-left p-[3px]">6785</td>
+          <td className="text-left p-[3px]">4642</td>
+          <td className="text-left p-[3px]">2471</td>
+          <td className="text-left p-[3px]">
             <p>...</p>
           </td>
         </tr>
