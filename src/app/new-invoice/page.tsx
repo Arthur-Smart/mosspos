@@ -23,6 +23,9 @@ import { Button } from "@/components/ui/button";
 const page = () => {
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState("");
+  const [customer, setCustomer] = useState("");
+  const [product, setProduct] = useState("");
+  const [preparedBy, setPreparedBy] = useState("");
 
   const frameworks = [
     {
@@ -54,18 +57,13 @@ const page = () => {
           <label className="font-semibold ">Customer name*</label>
           <div className="flex items-center justify-between border-[1px] border-gray-200 outline-0 py-[2px] px-3 rounded-md">
             <input
+              value={value}
               type="text"
               placeholder="Enter customer name "
               className="w-[80%] outline-0"
             />
             <Popover>
               <PopoverTrigger>
-                {/* <Image
-                  src="./assets/search.svg"
-                  width={25}
-                  height={25}
-                  alt=""
-                /> */}
                 <Button
                   variant="outline"
                   role="combobox"
