@@ -71,7 +71,10 @@ const page = () => {
               Add
             </button>
           </div>
-          <div className="w-full flex flex-wrap  gap-2 border-[1px] border-gray-200 outline-0 py-2 px-3 rounded-md mt-2">
+          <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-2 border-[1px] border-gray-200 outline-0 py-2 px-3 rounded-md mt-2">
+            <Order />
+            <Order />
+            <Order />
             <Order />
             <Order />
             <Order />
@@ -81,6 +84,7 @@ const page = () => {
             <Order />
           </div>
         </div>
+        <h1 className="mt-4 font-semibold">Total: (Kes) 250, 000</h1>
       </section>
     </main>
   );

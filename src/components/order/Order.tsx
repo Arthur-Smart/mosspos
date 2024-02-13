@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Order = () => {
   return (
-    <div className="py-2 px-3 rounded-full flex items-start border-[1px] border-gray-200">
+    <div className="py-2 px-3 rounded-full flex items-start justify-between border-[1px] border-gray-200">
       <div>
         <h1 className="font-semibold">Silk Vinly</h1>
         <p className="text-[#6E7373] text-[14px]">Qty 3 | Cost 3,000</p>
