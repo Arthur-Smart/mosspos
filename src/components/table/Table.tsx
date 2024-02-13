@@ -37,7 +37,7 @@ const Table = () => {
             </PopoverTrigger>
             <PopoverContent className="flex flex-col items-center w-[100px] bg-[#D3D3D3] ">
               <Link
-                href="#"
+                href="/invoice/1344"
                 className="mb-[1px] text-[14px] font-medium"
               >
                 More
@@ -192,7 +192,7 @@ const Table = () => {
             </PopoverTrigger>
             <PopoverContent className="flex flex-col items-center w-[100px] bg-[#D3D3D3] ">
               <Link
-                href="#"
+                href="/invoice/1344"
                 className="mb-[1px] text-[14px] font-medium"
               >
                 More
@@ -223,7 +223,7 @@ const Table = () => {
             </PopoverTrigger>
             <PopoverContent className="flex flex-col items-center w-[100px] bg-[#D3D3D3] ">
               <Link
-                href="#"
+                href="/invoice/1344"
                 className="mb-[1px] text-[14px] font-medium"
               >
                 More

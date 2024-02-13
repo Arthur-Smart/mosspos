@@ -7,6 +7,15 @@ import {
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+
 import Link from "next/link";
 
 const Navbar = () => {
@@ -64,13 +73,28 @@ const Navbar = () => {
         <div
           className={`${styles.notification__icon} flex items-center justify-center ml-3`}
         >
-          <Image
-            src="./assets/bell.svg"
-            alt=""
-            width={20}
-            height={20}
-            className=""
-          />
+          <Sheet>
+            <SheetTrigger>
+              <Image
+                src="./assets/bell.svg"
+                alt=""
+                width={20}
+                height={20}
+                className=""
+              />
+            </SheetTrigger>
+            <SheetContent>
+              <SheetHeader>
+                <SheetTitle>You have 15 unread notifications</SheetTitle>
+                <SheetDescription className="border-gray-200 border-[1px] p-3 rounded-md">
+                  Josphine Katheka sent you an Email.
+                  <button className="p-2 rounded-md bg-[#283593] text-white mt-2">
+                    Mark as read
+                  </button>
+                </SheetDescription>
+              </SheetHeader>
+            </SheetContent>
+          </Sheet>
           <div className={`${styles.count} flex items-center justify-center `}>
             <p className="font-semibold text-[14px]">2</p>
           </div>
