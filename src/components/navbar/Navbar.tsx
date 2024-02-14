@@ -46,7 +46,7 @@ const Navbar = () => {
             />
           </HoverCardTrigger>
           <HoverCardContent className="mt-5">
-            <div className="flex items-center">
+            <div className="flex items-center mb-2">
               Admin
               <p className="bg-green-500 py-[1px] px-4 text-white rounded-md ml-2">
                 true
@@ -54,7 +54,7 @@ const Navbar = () => {
             </div>
             <Link
               href="#"
-              className="mt-2"
+              className="mt-4"
             >
               Visit your account setting
             </Link>

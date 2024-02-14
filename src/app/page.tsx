@@ -9,7 +9,7 @@ export default function Home() {
         <div className="shadow-lg card p-3 rounded-md flex items-center justify-between">
           <div>
             <p className="font-semibold text-[17px]">Total Orders</p>
-            <h1 className="font-bold text-[22px] text-[#283593]">2367</h1>
+            <h1 className="font-bold text-[20px] text-[#283593]">2367</h1>
           </div>
           <Image
             src="./assets/cart.svg"
@@ -21,7 +21,7 @@ export default function Home() {
         <div className="shadow-lg card p-3 rounded-md flex items-center justify-between">
           <div>
             <p className="font-semibold text-[17px]">Total Sales</p>
-            <h1 className="font-bold text-[22px] text-[#4CAF50]">55,000</h1>
+            <h1 className="font-bold text-[20px] text-[#4CAF50]">55,000</h1>
           </div>
           <Image
             src="./assets/arrowup.svg"
@@ -33,7 +33,7 @@ export default function Home() {
         <div className="shadow-lg card p-3 rounded-md flex items-center justify-between">
           <div>
             <p className="font-semibold text-[17px]">Expenses</p>
-            <h1 className="font-bold text-[22px] text-[#FF9800]">12,500</h1>
+            <h1 className="font-bold text-[20px] text-[#FF9800]">12,500</h1>
           </div>
           <Image
             src="./assets/arrowdown.svg"
@@ -45,7 +45,7 @@ export default function Home() {
         <div className="shadow-lg card p-3 rounded-md flex items-center justify-between">
           <div>
             <p className="font-semibold text-[17px]">Current Inventory</p>
-            <h1 className="font-bold text-[22px] text-[#BFD3DB]">12,000</h1>
+            <h1 className="font-bold text-[20px] text-[#BFD3DB]">12,000</h1>
           </div>
           <Image
             src="./assets/invent.svg"
@@ -88,7 +88,7 @@ export default function Home() {
                 <p className="text-black text-[15px] font-semibold">
                   M-pesa Transfers
                 </p>
-                <h1 className="text-black font-black text-xl">Kes 55, 000</h1>
+                <h1 className="font-black text-xl">Kes 55, 000</h1>
               </div>
             </div>
             <div className="revenue__card bg-[#FFEAC1] rounded-md p-3 h-[130px] flex items-center justify-between mt-4">
