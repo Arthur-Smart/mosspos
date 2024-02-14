@@ -4,12 +4,15 @@ import Image from "next/image";
 import ADDICON from "../../../../public/assets/add2.svg";
 import CUSTOMERIMG from "../../../../public/assets/admin.jpg";
 import MOREICON from "../../../../public/assets/more2.svg";
+import MAIL from "../../../../public/assets/mail.svg";
+import WHATSAPP from "../../../../public/assets/whatsapp.svg";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
 import Link from "next/link";
+import CustomerOrdersTable from "@/components/customerorderstable/CustomerOrdersTable";
 
 const page = () => {
   return (
@@ -79,6 +82,32 @@ const page = () => {
           <p className="text-white ">Location: Nairobi Kenya</p>
           <p className="text-white ">Phone: 0786785786</p>
           <p className="text-white ">Email: joshua@gmail.com</p>
+        </div>
+      </section>
+      <section className="mt-3">
+        <h2 className=" font-medium text-md">Customer order history</h2>
+        <table className="w-full rounded-md">
+          <CustomerOrdersTable />
+        </table>
+      </section>
+      <section className="mt-3 flex items-center">
+        <div className="flex items-center cursor-pointer">
+          <Image
+            src={WHATSAPP}
+            alt=""
+            width={25}
+            height={25}
+          />
+          {/* <p className="ml-2 font-medium ">Send A whatsapp message</p> */}
+        </div>
+        <div className="flex items-center ml-[2px] cursor-pointer">
+          <Image
+            src={MAIL}
+            alt=""
+            width={15}
+            height={15}
+          />
+          {/* <p className="ml-2 font-medium ">Send E-mail to Joshua Kimani</p> */}
         </div>
       </section>
     </main>
