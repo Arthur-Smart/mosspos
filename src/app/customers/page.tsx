@@ -10,7 +10,7 @@ const page = () => {
     <main className="w-full p-3 mt-4">
       <section className="flex items-center justify-between">
         <div className="flex items-center">
-          <Link href="#">
+          <Link href="/newcustomer">
             <h2 className="font-semibold">Add a new customer</h2>
           </Link>
           <p className="py-[1px] px-2 ml-2 bg-sky-600 rounded-md text-white">
@@ -21,8 +21,8 @@ const page = () => {
         <div className="flex items-center">
           <div className="flex">
             <input
-              placeholder="Search customer"
-              className={`${styles.search__input} outline-0`}
+              placeholder="Search customer..."
+              className={`${styles.search__input} outline-0 py-[6px] px-2 rounded-md`}
             />
             <Image
               src="./assets/search.svg"

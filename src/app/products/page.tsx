@@ -15,14 +15,14 @@ const page = () => {
   return (
     <main className="w-full p-3 mt-4">
       <section className="flex items-center justify-between">
-        <Link href="#">
+        <Link href="/newproduct">
           <p className="font-semibold">Create new product</p>
         </Link>
         <div className="flex items-center">
           <div className="flex">
             <input
-              placeholder="Search by name"
-              className={`${styles.search__input} outline-0`}
+              placeholder="Search by name ..."
+              className={`${styles.search__input} outline-0 py-[6px] px-2 rounded-md`}
             />
             <Image
               src="./assets/search.svg"

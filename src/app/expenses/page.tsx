@@ -25,8 +25,8 @@ const page = () => {
         <div className="flex items-center">
           <div className="flex">
             <input
-              placeholder="Search order"
-              className={`${styles.search__input} outline-0`}
+              placeholder="Search expense ..."
+              className={`${styles.search__input} outline-0 py-[6px] px-2 rounded-md`}
             />
             <Image
               src="./assets/search.svg"

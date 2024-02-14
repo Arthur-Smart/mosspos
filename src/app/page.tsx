@@ -65,14 +65,14 @@ export default function Home() {
               <input
                 type="text"
                 placeholder="Search by name"
-                className="outline-0 search__invoice__input"
+                className="outline-0 search__invoice__input py-[6px] px-2 rounded-md"
               />
               <Image
                 src="./assets/search.svg"
                 alt=""
                 width={20}
                 height={20}
-                className="cursor-pointer"
+                className="cursor-pointer ml-2"
               />
             </div>
           </div>
