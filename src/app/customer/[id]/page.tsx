@@ -86,29 +86,29 @@ const page = () => {
       </section>
       <section className="mt-3">
         <h2 className=" font-medium text-md">Customer order history</h2>
-        <table className="w-full rounded-md">
+        <section className=" flex items-center">
+          <div className="flex items-center cursor-pointer">
+            <Image
+              src={WHATSAPP}
+              alt=""
+              width={25}
+              height={25}
+            />
+            {/* <p className="ml-2 font-medium ">Send A whatsapp message</p> */}
+          </div>
+          <div className="flex items-center ml-[2px] cursor-pointer">
+            <Image
+              src={MAIL}
+              alt=""
+              width={15}
+              height={15}
+            />
+            {/* <p className="ml-2 font-medium ">Send E-mail to Joshua Kimani</p> */}
+          </div>
+        </section>
+        <table className="w-full rounded-md overflow-hidden">
           <CustomerOrdersTable />
         </table>
-      </section>
-      <section className="mt-3 flex items-center">
-        <div className="flex items-center cursor-pointer">
-          <Image
-            src={WHATSAPP}
-            alt=""
-            width={25}
-            height={25}
-          />
-          {/* <p className="ml-2 font-medium ">Send A whatsapp message</p> */}
-        </div>
-        <div className="flex items-center ml-[2px] cursor-pointer">
-          <Image
-            src={MAIL}
-            alt=""
-            width={15}
-            height={15}
-          />
-          {/* <p className="ml-2 font-medium ">Send E-mail to Joshua Kimani</p> */}
-        </div>
       </section>
     </main>
   );
